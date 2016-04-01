@@ -1,17 +1,3 @@
-[user]
-name = richardteachout
-email = rich@teachout.com
-
-[sendemail]
-smtpserver = smtp.gmail.com
-smtpserverport = 587
-smtpencryption = tls
-smtpuser = rich@teachout.com
-
-[github]
-user = richardteachout
-
-
 
 [alias]
 st = status
@@ -90,7 +76,7 @@ changed = green
 untracked = cyan
 
 [branch]
-  autosetupmerge = true
+autosetupmerge = true
 
 [push]
 default = current
@@ -98,31 +84,34 @@ default = current
 [hub]
 http-clone = true
 
+[credential]
+helper = osxkeychain
 [init]
-	templatedir = ~/.git_template
+templatedir = ~/.git_template
 
 # beyond compare (must purchase)
 # http://www.scootersoftware.com/support.php?zz=kb_vcs_osx#git
 [diff]
   renames = copies
   mnemonicprefix = true
-  tool = bc3
-#tool = diffmerge
+#  tool = bc3
+  tool = diffmerge
 
-[merge]
-	tool = bc3
-[mergetool]
-	bc3 = trustExitCode
-
+#[merge]
+#	tool = bc3
+#[mergetool]
+#	bc3 = trustExitCode
+#
 # diffmerge
 # http://adventuresincoding.com/2010/04/how-to-setup-git-to-use-diffmerge/
-#[difftool "diffmerge"]
-#	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
-#[merge]
-#	tool = diffmerge
-#	conflictstyle = diff3
-#[mergetool "diffmerge"]
-#	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
-#	trustExitCode = true
-#[mergetool]
-#	keepBackup = false
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = diffmerge
+	conflictstyle = diff3
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
+[mergetool]
+	keepBackup = false
+
