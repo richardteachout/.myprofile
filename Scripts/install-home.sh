@@ -1,7 +1,7 @@
 #!/bin/bash
-git clone https://github.com/richardteachout/.myprofile.git
-mv .myprofile/* ./ && mv .myprofile/.[a-z]* ./ && rmdir .myprofile
-git remote add write git@github.com:richardteachout/.myprofile.git
+git clone https://github.com/zeroasterisk/home.git
+mv home/* ./ && mv home/.[a-z]* ./ && rmdir home
+git remote add write git@github.com:zeroasterisk/home.git
 git submodule update --init --recursive
 vim +BundleInstall +qall
 #zsh
