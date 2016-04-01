@@ -10,3 +10,6 @@ cd .myprofile
 
 
 Voila!
+
+
+some source: from my good friend @zeroasterisk at https://github.com/zeroasterisk/home
