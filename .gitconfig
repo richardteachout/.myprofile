@@ -1,6 +1,6 @@
 [user]
-name = richardteachout
-email = rich@teachout.com
+	name = Richard Teachout
+	email = rich@eltoro.com
 
 [sendemail]
 smtpserver = smtp.gmail.com
