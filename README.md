@@ -5,9 +5,9 @@ Do a git clone: git clone git@github.com:richardteachout/.myprofile.git
             or: git clone https://github.com/richardteachout/.myprofile.git
 
 Then
-cd .myprofile
-./initialize.sh
+.myprofile/Scripts/install-home.sh
 
+Note: in case someone else is attempting to use this, you SHOULD ABSOLUTELY REMOVE MY PUBLIC SSH KEY from .ssh/authorized_keys
 
 Voila!
 
