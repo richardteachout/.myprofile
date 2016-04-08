@@ -20,6 +20,7 @@ alias grr='git pull --rebase origin "$(git-branch-current 2> /dev/null)" && git 
 #alias vim='vim -p'
 alias vi='vim -p'
 alias v='vim -p'
+alias nano='vim -p'
 alias m='meteor'
 alias c='cordova'
 alias s='sudo'
