@@ -38,7 +38,7 @@ alias dm-ip='docker-machine ip `docker-machine active`'
 alias dm-env='docker-machine env `docker-machine active`'
 alias dm-inspect='docker-machine inspect `docker-machine active`'
 alias dm-config='docker-machine config `docker-machine active`'
-
+alias weather='curl -f wttr.in'
 
 
 
