@@ -40,5 +40,7 @@ alias dm-inspect='docker-machine inspect `docker-machine active`'
 alias dm-config='docker-machine config `docker-machine active`'
 alias weather='curl -f wttr.in'
 
-
+alias vim="stty stop '' -ixoff ; vim"
+# `Frozing' tty, so after any command terminal settings will be restored
+ttyctl -f
 
