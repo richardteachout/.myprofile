@@ -719,3 +719,5 @@ if 1
   unlet s:save_cpo
 endif
 
+
+set nolist
