@@ -103,7 +103,7 @@ zstyle ':prezto:module:gnu-utility' prefix 'g'
 # sorin = default theme (>>>)
 # steeef = matt's theme (2 line)
 # pws = presentation (very small prompt)
-zstyle ':prezto:module:prompt' theme 'redhat'
+zstyle ':prezto:module:prompt' theme 'steeef'
 
 #
 # Ruby
