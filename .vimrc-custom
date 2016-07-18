@@ -244,8 +244,9 @@ nnoremap <C-t> :tabnew<CR>
 
 
 " remap arrow keys in insert mode, so that they escape and move
-inoremap <up> <esc>k
-inoremap <down> <esc>j
+" inoremap <up> <esc>k
+" inoremap <down> <esc>j
+
 " remap Shift+arrow in insert mode, escape and move, includes left/right
 inoremap <S-up> <esc>k
 inoremap <S-down> <esc>j
