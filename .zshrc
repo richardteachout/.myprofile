@@ -45,6 +45,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
+eval "$(thefuck --alias)"
+# You can use whatever you want as an alias, like for Mondays:
+eval "$(thefuck --alias FUCK)"
 
-export NVM_DIR="/Users/alan/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
