@@ -723,5 +723,8 @@ if 1
   unlet s:save_cpo
 endif
 
-
+let @p = 'YjpJkkJ:<C-P>%s/\(.*\),\(.*\),\(.*\),\(.*\) \(.*\),\(.*\),\(.*\),\(.*\)/[<C-V><CR><Tab>{<C-V><CR><Tab><Tab>"\1": "\5",<C-V><CR><Tab><Tab>"\2": "\6",<C-V><CR><Tab><Tab>\3<BS><BS>"\3": "\7",<C-V><CR><Tab><Tab>"\4": "\8"<C-V><CR><Tab>},<C-V><CR>]<CR>kllD7kdjZZ'
 set nolist
+set breakindent
+set breakindentopt=shift:5
+

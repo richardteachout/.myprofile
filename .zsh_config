@@ -69,3 +69,8 @@ fi
 #
 typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[cursor]=underline
+
+
+xinput set-prop "DLL06E5:01 06CB:7A13 Touchpad" "Synaptics Noise Cancellation" 10 10
+xinput set-prop "DLL06E5:01 06CB:7A13 Touchpad" "Synaptics Finger" 100 110 255
+
