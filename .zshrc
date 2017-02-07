@@ -45,7 +45,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
-eval "$(thefuck --alias)"
+#eval "$(thefuck --alias)"
 # You can use whatever you want as an alias, like for Mondays:
-eval "$(thefuck --alias FUCK)"
+#eval "$(thefuck --alias FUCK)"
 
