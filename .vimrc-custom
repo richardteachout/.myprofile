@@ -728,3 +728,6 @@ set nolist
 set breakindent
 set breakindentopt=shift:5
 
+if filereadable(expand("~/.vimrc-win"))
+    source ~/.vimrc-win
+endif

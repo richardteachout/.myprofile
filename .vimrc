@@ -1,1 +1,1 @@
-.myprofile/.vimrc
+.vimrc-custom
